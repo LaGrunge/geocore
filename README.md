@@ -22,4 +22,4 @@ and [data/copyright.html](http://htmlpreview.github.io/?https://github.com/mapsm
 
 [codecov-badge]:   https://codecov.io/gh/LaGrunge/geocore/branch/master/graph/badge.svg
 [codecov-link]:    https://codecov.io/gh/LaGrunge/geocore
-[c++ci-badge]:      https://github.com/LaGrunge/geocore/workflows/C/C++%20CI/badge.svg
+[c++ci-badge]:     https://github.com/LaGrunge/geocore/workflows/C/C++%20CI/badge.svg
