@@ -2,7 +2,7 @@
 
 Bunch of code for geoservices
 
-[![Actions Status][c++ci-badge]]
+![Actions Status][c++ci-badge]
 
 [![codecov][codecov-badge]][codecov-link]
 
