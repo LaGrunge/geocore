@@ -52,3 +52,20 @@ jobs:
       run:  make test
       env:
         CTEST_OUTPUT_ON_FAILURE: 1
+
+  cmake_deps:
+    name: Draw Cmake dependency
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Clone repo
+      uses: actions/checkout@v1
+      with:
+        submodules: true
+    - name: Draw dependencies
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+        GITHUB_EVENT_PATH: ${{ secrets.GITHUB_EVENT_PATH }}
+        IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+        GITHUB_SHA: ${{ secrets.GITHUB_SHA}}
+      uses: LaGrunge/cmake-dependency-graph@master
