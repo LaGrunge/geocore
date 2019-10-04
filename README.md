@@ -6,7 +6,7 @@ Bunch of code for geoservices
 
 [![codecov][codecov-badge]][codecov-link]
 
-
+[![](https://codescene.io/projects/5681/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/5681/jobs/latest-successful/results)
 
 
 ## Submodules
